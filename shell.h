@@ -16,6 +16,7 @@
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
 
+void cmdprompt(char **av, char **env);
 void execmd(char **argv);
 char *get_location(char *command);
 
